@@ -14417,6 +14417,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/Views/formulario/Index.cshtml",
+      "TargetPath": "Views\\formulario\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"

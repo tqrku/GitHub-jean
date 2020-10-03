@@ -1,0 +1,37 @@
+@model formulario.Models.Formulario
+
+@{
+    ViewData["Title"] = "Formulario Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <form asp-controller="Formulario" asp-action="Formular">
+            
+            <label>Nombre</label>
+            <input asp-for="nombre"/>
+            <br/>
+            <label>Apellid0</label>
+            <input asp-for="apellido"/>
+            <br/>
+            <label>Email</label>
+            <input asp-for="email"/>
+            <br/>
+            <label>Telefono</label>
+            <input asp-for="telefono"/>
+            <br/>
+            <label>Subject</label>
+            <input asp-for="subject"/>
+            <br/>
+            <label>Mensaje</label>
+            <input asp-for="mensaje"/>
+            <br/>
+
+            
+            <br/>
+            
+            <input type="submit" value="Formular"/>
+    </form>
+    
+    
+</div>

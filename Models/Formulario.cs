@@ -2,10 +2,10 @@ using System;
 
 namespace formulario.Models
 {
-    public class formulario
+    public class Formulario
     {
-        public String Nombre { get; set; }
-        public String Apellido { get; set; }
+        public String nombre { get; set; }
+        public String apellido { get; set; }
 
         public String email { get; set; }
 
