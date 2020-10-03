@@ -5,13 +5,13 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">Formulario </h1>
     <form asp-controller="Formulario" asp-action="Formular">
             
             <label>Nombre</label>
             <input asp-for="nombre"/>
             <br/>
-            <label>Apellid0</label>
+            <label>Apellido</label>
             <input asp-for="apellido"/>
             <br/>
             <label>Email</label>
@@ -24,7 +24,8 @@
             <input asp-for="subject"/>
             <br/>
             <label>Mensaje</label>
-            <input asp-for="mensaje"/>
+            <br>
+            <textarea  asp-for="subject" rows="10" cols="40">dejenos su mensaje</textarea>
             <br/>
 
             
