@@ -23,13 +23,7 @@ namespace formulario.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult Formular(Formulario objFormulario){
-            if
-            }
-            
-            return View("index", objFormulario);
-        }
+        
 
        
     }
