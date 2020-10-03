@@ -12,5 +12,7 @@ namespace formulario.Models
         public int telefono { get; set; }
         public String subject { get; set; }
         public String mensaje { get; set; }
+        public String Respuesta { get; set; }
+        
     }
 }
