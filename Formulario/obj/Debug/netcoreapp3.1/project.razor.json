@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/formulario.csproj",
+  "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/formulario.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,43 +14392,43 @@
   "RootNamespace": "formulario",
   "Documents": [
     {
-      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/Views/Home/Privacy.cshtml",
+      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/Views/_ViewStart.cshtml",
+      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/Views/formulario/Index.cshtml",
-      "TargetPath": "Views\\formulario\\Index.cshtml",
+      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/Views/Shared/Error.cshtml",
+      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/Views/formulario/Index.cshtml",
+      "TargetPath": "Views\\formulario\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
