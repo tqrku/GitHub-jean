@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <form action="procesar.html">
+        <H1>Formulario de contacto</H1>
+        <div class="form-group">
+            <label for="nc">Nombre completo:</label> <input type="text" name="nombre_completo" id="nc" required class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="mc">Correo</label> <input type="email" name="correo" id="mc" class="form-control">
+        </div>
+        <div class="form-group">
+            Asunto:
+            <select name="asunto" id="">
+                <option value="consulta">Consulta</option>
+                <option value="reclamo">Reclamo</option>
+                <option value="sugerencia">Sugerencia</option>
+            </select>
+        </div>
+        <div> 
+            Sexo:
+            <label for=""><input type="radio" name="sexo" value="f">Femenino</label>
+            <label for=""><input type="radio" name="sexo" value="m">Masculino</label>
+        </div>
+        <div class="form-group">
+            <label for="rc">Mensaje:</label>
+            <textarea name="mensaje" id="rc" cols="30" rows="10" class="form-control"></textarea>
+        </div>
+        <button>Enviar formulario de contacto</button>
+    </form>
+    
+</body>
+</html>
