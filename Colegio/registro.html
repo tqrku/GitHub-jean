@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro HTML</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container"> 
+    <form action="registrar.html">
+        <H1>Registro de colegio</H1>
+        <div class="form-group">
+            <label for="nc">Nombre y apellidos: </label> <input type="text" name="nom_ape" id="nc" required class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="mc">Correo</label> <input type="email" name="correo" id="mc" class="form-control">
+        </div>
+        <div class="form-group">
+            Tipo:
+            <select name="asunto" id="">
+                <option value="consulta">Apoderado</option>
+                <option value="reclamo">Alumno</option>
+            </select>
+        </div>
+        <div> 
+            Sexo:
+            <label for=""><input type="radio" name="sexo" value="f">Femenino</label>
+            <label for=""><input type="radio" name="sexo" value="m">Masculino</label>
+        </div>
+        <button  class="btn btn-primary">Registrarse</button>
+    </form>
+    </div>  
+</body>
+</html>
