@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/formulario.csproj",
+      "projectUniqueName": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/formulario.csproj",
       "projectName": "formulario",
-      "projectPath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/formulario.csproj",
+      "projectPath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/formulario.csproj",
       "packagesPath": "/Users/jeapieer/.nuget/packages/",
-      "outputPath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/formulario/obj/",
+      "outputPath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jeapieer/.nuget/NuGet/NuGet.Config"
