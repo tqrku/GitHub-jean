@@ -1,0 +1,23 @@
+@model formulario.Models.Contacto
+
+@{
+    ViewData["Title"] = "Formulario Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Contacto </h1>
+    <form asp-controller="Contacto" asp-action="Registrar">
+            
+            <label>Nombre</label>
+            <input asp-for="nombre" />
+            <br/>
+            <label>Apellido</label>
+            <input asp-for="apellido" />
+            <br/>
+           
+
+                <input type="submit" value= "Registrar"/>
+    </form>
+    
+
+</div>
