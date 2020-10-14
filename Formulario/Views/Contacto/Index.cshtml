@@ -1,23 +1,41 @@
 @model formulario.Models.Contacto
 
 @{
-    ViewData["Title"] = "Formulario Page";
+    ViewData["Title"] = "Contacto Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Contacto </h1>
     <form asp-controller="Contacto" asp-action="Registrar">
             
-            <label>Nombre</label>
-            <input asp-for="nombre" />
-            <br/>
-            <label>Apellido</label>
-            <input asp-for="apellido" />
-            <br/>
-           
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>    
 
-                <input type="submit" value= "Registrar"/>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div> 
+
+            <div class="form-group">
+                <label  class="control-label"></label>
+                <select name="Curso" id="">
+                <option value="Matematicas">Matematicas</option>
+                <option value="Historia">Historia</option>
+                <option value="Ciencias">Ciencias</option>
+                <option value="Humanidades">Humanidades</option>
+            </select>
+            </div> 
+            
+
+            <div class="form-group">
+                 <button type="submit" class="btn btn-default">Registrar</button>
+            </div> 
     </form>
-    
+    <td>@Html.DisplayTextFor(model => model.Response)</td> 
 
 </div>

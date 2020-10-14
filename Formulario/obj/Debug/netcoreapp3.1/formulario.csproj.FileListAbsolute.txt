@@ -72,3 +72,4 @@
 /Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/obj/Debug/netcoreapp3.1/formulario.pdb
 /Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/obj/Debug/netcoreapp3.1/formulario.genruntimeconfig.cache
 /Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/obj/Debug/netcoreapp3.1/formulario.csproj.CopyComplete
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/obj/Debug/netcoreapp3.1/Razor/Views/Contacto/Index.cshtml.g.cs
