@@ -14407,6 +14407,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/Views/Contacto/Index.cshtml",
+      "TargetPath": "Views\\Contacto\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Formulario/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
