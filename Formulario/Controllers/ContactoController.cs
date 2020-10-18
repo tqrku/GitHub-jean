@@ -27,6 +27,7 @@ namespace formulario.Controllers
         public IActionResult Registrar(Contacto objContacto){
             if (ModelState.IsValid)
             {
+                //grabar
                 objContacto.Response = "Gracias estamos en contacto";
             }
             return View("index", objContacto);
