@@ -1,0 +1,63 @@
+@model Bono.Models.Contacto
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <h1 class="display-4">RECLAMA TU BONO</h1>
+
+    <form asp-controller="Bono" asp-action="Registrar">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div> 
+            
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>    
+
+            <div class="form-group">
+                <label asp-for="Distrito" class="control-label"></label>
+                <input asp-for="Distrito" class="form-control" />
+                <span asp-validation-for="Distrito" class="text-danger"></span>
+            </div> 
+            <!--jalar de una lista-->
+            <div class="form-group">
+                <label asp-for="Banco" class="control-label"></label>
+                <input asp-for="Banco" class="form-control" />
+                <span asp-validation-for="Banco" class="text-danger"></span>
+            </div> 
+
+            <div class="form-group">
+                <label asp-for="Edad" class="control-label"></label>
+                <input asp-for="Edad" class="form-control" />
+                <span asp-validation-for="Edad" class="text-danger"></span>
+            </div> 
+
+            <!--radio buttom-->
+            <div class="form-group"> 
+            <label asp-for="Sexo" class="control-label">Sexo: </label>
+            <label for=""><input type="radio" name="sexo" value="f">Femenino</label>
+            <label for=""><input type="radio" name="sexo" value="m">Masculino</label>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Autor" class="control-label"></label>
+                <input asp-for="Autor" class="form-control" />
+                <span asp-validation-for="Autor" class="text-danger"></span>
+            </div> 
+
+            <div class="form-group">
+                 <button type="submit" class="btn btn-default">Registrar</button> 
+            </div>      
+
+            <td>@Html.DisplayTextFor(model => model.Response)</td>
+
+    </form>
+    
+</div>
