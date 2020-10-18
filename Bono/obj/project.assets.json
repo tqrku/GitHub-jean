@@ -5,7 +5,7 @@
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.1/_._": {}
+          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
@@ -14,7 +14,7 @@
       "Microsoft.Bcl.HashCode/1.1.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp2.1/_._": {}
+          "ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
         },
         "runtime": {
           "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
@@ -44,7 +44,7 @@
           "System.Diagnostics.DiagnosticSource": "4.7.1"
         },
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
@@ -53,7 +53,7 @@
       "Microsoft.EntityFrameworkCore.Abstractions/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -90,7 +90,7 @@
           "Microsoft.EntityFrameworkCore": "3.1.4"
         },
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -114,7 +114,7 @@
           "Microsoft.Extensions.Primitives": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/_._": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
@@ -129,7 +129,7 @@
           "Microsoft.Extensions.Options": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/_._": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": {}
@@ -141,7 +141,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/_._": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
@@ -153,7 +153,7 @@
           "Microsoft.Extensions.Primitives": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/_._": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -165,7 +165,7 @@
           "Microsoft.Extensions.Configuration": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/_._": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
@@ -177,7 +177,7 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/_._": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -186,7 +186,7 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -201,7 +201,7 @@
           "Microsoft.Extensions.Options": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/_._": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {}
@@ -210,7 +210,7 @@
       "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -223,7 +223,7 @@
           "Microsoft.Extensions.Primitives": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/_._": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
@@ -232,16 +232,43 @@
       "Microsoft.Extensions.Primitives/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/_._": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
         }
       },
+      "Npgsql/4.1.3.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Npgsql.dll": {}
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/3.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.4",
+          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.4",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.4",
+          "Npgsql": "4.1.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        }
+      },
       "System.Collections.Immutable/1.7.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {}
@@ -250,7 +277,7 @@
       "System.ComponentModel.Annotations/4.7.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.1/_._": {}
+          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
         },
         "runtime": {
           "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {}
@@ -259,10 +286,19 @@
       "System.Diagnostics.DiagnosticSource/4.7.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard1.3/_._": {}
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       }
     }
@@ -661,6 +697,43 @@
         "microsoft.extensions.primitives.nuspec"
       ]
     },
+    "Npgsql/4.1.3.1": {
+      "sha512": "354pl/Picmt5/AIrm8urFwtxfK4n4NbmfBnLA9yvP8VtILSQF3/sFo3+lGuz+q4iyD18QeNFy0NMNBzsocFVlw==",
+      "type": "package",
+      "path": "npgsql/4.1.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Npgsql.dll",
+        "lib/net461/Npgsql.pdb",
+        "lib/net461/Npgsql.xml",
+        "lib/netcoreapp3.0/Npgsql.dll",
+        "lib/netcoreapp3.0/Npgsql.pdb",
+        "lib/netcoreapp3.0/Npgsql.xml",
+        "lib/netstandard2.0/Npgsql.dll",
+        "lib/netstandard2.0/Npgsql.pdb",
+        "lib/netstandard2.0/Npgsql.xml",
+        "lib/netstandard2.1/Npgsql.dll",
+        "lib/netstandard2.1/Npgsql.pdb",
+        "lib/netstandard2.1/Npgsql.xml",
+        "npgsql.4.1.3.1.nupkg.sha512",
+        "npgsql.nuspec",
+        "postgresql.png"
+      ]
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/3.1.4": {
+      "sha512": "T+BIWO+ceje5d52/sOwwqaU/F4Rm2jAWx5qA3+pUGbzY/ZXG0QbHQsyjyg0k8aef6JTq8FRk3FtRWkocsa1QWQ==",
+      "type": "package",
+      "path": "npgsql.entityframeworkcore.postgresql/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
+        "npgsql.entityframeworkcore.postgresql.3.1.4.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.nuspec",
+        "postgresql.png"
+      ]
+    },
     "System.Collections.Immutable/1.7.1": {
       "sha512": "B43Zsz5EfMwyEbnObwRxW5u85fzJma3lrDeGcSAV1qkhSRTNY5uXAByTn9h9ddNdhM+4/YoLc/CI43umjwIl9Q==",
       "type": "package",
@@ -801,11 +874,37 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+      "sha512": "HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.4"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.4",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 3.1.4"
     ]
   },
   "packageFolders": {
@@ -846,6 +945,10 @@
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.4, )"
+          },
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[3.1.4, )"
           }
