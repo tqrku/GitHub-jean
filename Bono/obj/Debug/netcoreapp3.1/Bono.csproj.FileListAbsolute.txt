@@ -1,0 +1,7 @@
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Bono/obj/Debug/netcoreapp3.1/Bono.csprojAssemblyReference.cache
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Bono/obj/Debug/netcoreapp3.1/Bono.AssemblyInfoInputs.cache
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Bono/obj/Debug/netcoreapp3.1/Bono.AssemblyInfo.cs
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Bono/obj/Debug/netcoreapp3.1/Bono.csproj.CoreCompileInputs.cache
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Bono/obj/Debug/netcoreapp3.1/Bono.MvcApplicationPartsAssemblyInfo.cache
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Bono/obj/Debug/netcoreapp3.1/Bono.RazorAssemblyInfo.cache
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/git/Bono/obj/Debug/netcoreapp3.1/Bono.RazorAssemblyInfo.cs

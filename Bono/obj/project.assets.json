@@ -5,7 +5,7 @@
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+          "ref/netstandard2.1/_._": {}
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
@@ -14,7 +14,7 @@
       "Microsoft.Bcl.HashCode/1.1.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
+          "ref/netcoreapp2.1/_._": {}
         },
         "runtime": {
           "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
@@ -44,7 +44,7 @@
           "System.Diagnostics.DiagnosticSource": "4.7.1"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
@@ -53,7 +53,7 @@
       "Microsoft.EntityFrameworkCore.Abstractions/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -75,7 +75,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "3.1.4"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -90,7 +90,7 @@
           "Microsoft.EntityFrameworkCore": "3.1.4"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -114,7 +114,7 @@
           "Microsoft.Extensions.Primitives": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
@@ -129,7 +129,7 @@
           "Microsoft.Extensions.Options": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": {}
@@ -141,7 +141,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
@@ -153,7 +153,7 @@
           "Microsoft.Extensions.Primitives": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -165,7 +165,7 @@
           "Microsoft.Extensions.Configuration": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
@@ -177,7 +177,7 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -186,7 +186,7 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -201,7 +201,7 @@
           "Microsoft.Extensions.Options": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {}
@@ -210,7 +210,7 @@
       "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -223,7 +223,7 @@
           "Microsoft.Extensions.Primitives": "3.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
@@ -232,7 +232,7 @@
       "Microsoft.Extensions.Primitives/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+          "lib/netcoreapp3.1/_._": {}
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
@@ -241,7 +241,7 @@
       "System.Collections.Immutable/1.7.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {}
@@ -250,7 +250,7 @@
       "System.ComponentModel.Annotations/4.7.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
+          "ref/netstandard2.1/_._": {}
         },
         "runtime": {
           "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {}
@@ -259,7 +259,7 @@
       "System.Diagnostics.DiagnosticSource/4.7.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
+          "lib/netstandard1.3/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
