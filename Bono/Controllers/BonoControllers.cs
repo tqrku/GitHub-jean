@@ -30,7 +30,7 @@ namespace Bono.Controllers
         }
 
         [HttpPost]
-        public IActionResult Registrar(Bono objBono){
+        public IActionResult Registrar(Bonos objBono){
             if (ModelState.IsValid)
             {
                 //grabar

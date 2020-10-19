@@ -12,6 +12,6 @@ namespace Bono.Data{
         {
         }
 
-        public DbSet<Bono.Models.Bono> Bono { get; set; }
+        public DbSet<Bono.Models.Bonos> Bonos { get; set; }
     }
 }

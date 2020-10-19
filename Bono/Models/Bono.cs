@@ -4,8 +4,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Bono.Models
 {
-    [Table("t_Bono")]
-    public class Bono
+    [Table("t_bono")]
+    public class Bonos
     {
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -24,20 +24,20 @@ namespace Bono.Models
         public String LastName { get; set; }
 
         [Required(ErrorMessage = "Por favor ingrese su Distrito")]
-        [Display(Name="Ditrito")]
-         [Column("Distrito")]
+        [Display(Name="Distrito")]
+         [Column("distrito")]
         public String Distrito { get; set; }
 
 
         [Required(ErrorMessage = "Por favor ingrese su edad")]
         [Display(Name="Edad")]
          [Column("edad")]
-        public String Name { get; set; }
+        public String Edad { get; set; }
 
         [Required(ErrorMessage = "Por favor ingrese el autor")]
         [Display(Name="Autor")]
          [Column("autor")]
-        public String Name { get; set; }
+        public String Autor { get; set; }
 
 
         [NotMapped]
