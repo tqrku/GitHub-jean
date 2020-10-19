@@ -27,10 +27,7 @@ namespace mvcLab.Models
         [Column("district")]
         public String Distrito{ get; set; }
 
-        [Required]
-        [Display(Name="Bank")]
-        [Column("bank")]
-        public String Banco{ get; set; }
+        
 
         [Required]
         [Display(Name="Age")]
