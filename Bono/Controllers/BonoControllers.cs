@@ -33,6 +33,7 @@ namespace Bono.Controllers
         public IActionResult Registrar(Bono objBono){
             if (ModelState.IsValid)
             {
+                //grabar
                 _context.Add(objBono);
                 _context.SaveChanges();
                 objBono.Response = "Se  ha registrado para recibir el bono";
