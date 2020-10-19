@@ -30,8 +30,8 @@ namespace mvcLab.Controllers
         [HttpPost]
         public IActionResult Registrar(Covid covid){
             if(ModelState.IsValid){
-                //grabado DB
-            
+                //Grabar
+                covid.Autor="HuamanCalderon JeanPieer";
                 _context.Add(covid);
                 _context.SaveChanges();            
                 covid.Respuesta="Gracias por registrarse al bono";
