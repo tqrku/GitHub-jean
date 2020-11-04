@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\git\\JeanDemos\\Formulario\\formulario.csproj",
+  "FilePath": "d:\\git\\JeanDemos\\contacto\\contacto.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14389,51 +14389,41 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "formulario",
+  "RootNamespace": "contacto",
   "Documents": [
     {
-      "FilePath": "d:\\git\\JeanDemos\\Formulario\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\git\\JeanDemos\\Formulario\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\git\\JeanDemos\\Formulario\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\git\\JeanDemos\\Formulario\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\git\\JeanDemos\\Formulario\\Views\\_ViewStart.cshtml",
+      "FilePath": "d:\\git\\JeanDemos\\contacto\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\git\\JeanDemos\\Formulario\\Views\\Contacto\\Index.cshtml",
-      "TargetPath": "Views\\Contacto\\Index.cshtml",
+      "FilePath": "d:\\git\\JeanDemos\\contacto\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\git\\JeanDemos\\Formulario\\Views\\formulario\\Index.cshtml",
-      "TargetPath": "Views\\formulario\\Index.cshtml",
+      "FilePath": "d:\\git\\JeanDemos\\contacto\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\git\\JeanDemos\\Formulario\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "d:\\git\\JeanDemos\\contacto\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\git\\JeanDemos\\contacto\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\git\\JeanDemos\\Formulario\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "d:\\git\\JeanDemos\\contacto\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\git\\JeanDemos\\contacto\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],
