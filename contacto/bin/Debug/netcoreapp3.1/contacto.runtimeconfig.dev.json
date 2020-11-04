@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\torku\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\torku\\.nuget\\packages"
+    ]
+  }
+}

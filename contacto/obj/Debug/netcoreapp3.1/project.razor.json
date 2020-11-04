@@ -14407,6 +14407,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\git\\JeanDemos\\contacto\\Views\\Home\\Contacto.cshtml",
+      "TargetPath": "Views\\Home\\Contacto.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\git\\JeanDemos\\contacto\\Views\\Home\\ContactoConfirmacion.cshtml",
+      "TargetPath": "Views\\Home\\ContactoConfirmacion.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\git\\JeanDemos\\contacto\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

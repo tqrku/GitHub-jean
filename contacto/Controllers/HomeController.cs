@@ -11,17 +11,27 @@ namespace contacto.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        
 
         public IActionResult Index()
         {
             return View();
         }
+        public IActionResult Contacto(){
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Contacto(Contacto contacto){
+            if(ModelState.IsValid){
+                return RedirectToAction ("ContactoConfirmacion");
+            }
+            return View(contacto);
+        }
+        public IActionResult ContactoConfirmacion()
+        {
+            return View();
+        }
+
 
         public IActionResult Privacy()
         {
