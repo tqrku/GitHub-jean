@@ -34,3 +34,4 @@
 /Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/obj/Debug/netcoreapp3.1/ProducctosApp.pdb
 /Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/obj/Debug/netcoreapp3.1/ProducctosApp.genruntimeconfig.cache
 /Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/obj/Debug/netcoreapp3.1/ProducctosApp.csproj.CopyComplete
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/obj/Debug/netcoreapp3.1/Razor/Views/Home/Producto.cshtml.g.cs

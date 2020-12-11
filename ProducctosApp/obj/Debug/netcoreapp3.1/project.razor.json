@@ -14412,6 +14412,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/Views/Home/Producto.cshtml",
+      "TargetPath": "Views\\Home\\Producto.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"

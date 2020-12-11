@@ -23,9 +23,17 @@ namespace ProducctosApp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Producto()
         {
             return View();
+        }
+        [HttpPost]
+        public IActionResult Producto(Producto p)
+        {
+            if(ModelState.IsValid){
+                return RedirectToAction("Index");
+            }
+            return View(p);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
