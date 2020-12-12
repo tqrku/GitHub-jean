@@ -35,3 +35,17 @@
 /Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/obj/Debug/netcoreapp3.1/ProducctosApp.genruntimeconfig.cache
 /Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/obj/Debug/netcoreapp3.1/ProducctosApp.csproj.CopyComplete
 /Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/obj/Debug/netcoreapp3.1/Razor/Views/Home/Producto.cshtml.g.cs
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/jeapieer/Documents/6to Ciclo/Programacion I/Github/JeanDemos/ProducctosApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.InMemory.dll

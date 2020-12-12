@@ -7,20 +7,26 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ProducctosApp.Models;
 
+using ProducctosApp.Data;
+
 namespace ProducctosApp.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ProductosAppContext _context;
+
+        public HomeController(ILogger<HomeController> logger, ProductosAppContext context )
         {
             _logger = logger;
+            _context=context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var productos = _context.Productos.ToList();
+            return View(productos);
         }
 
         public IActionResult Producto()
@@ -31,6 +37,9 @@ namespace ProducctosApp.Controllers
         public IActionResult Producto(Producto p)
         {
             if(ModelState.IsValid){
+
+                _context.Add(p);
+                _context.SaveChanges();
                 return RedirectToAction("Index");
             }
             return View(p);
