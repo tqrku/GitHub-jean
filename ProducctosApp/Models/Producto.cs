@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 namespace ProducctosApp.Models
 {
@@ -17,7 +18,9 @@ namespace ProducctosApp.Models
         public string Lugar {get; set;}
         [Required] 
         public string NombreUsuario {get; set;}
-        
+
+        [Required]
+        public DateTime Fecha { get; set; }
 
     }
 }
