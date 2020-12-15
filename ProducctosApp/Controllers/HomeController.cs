@@ -26,6 +26,14 @@ namespace ProducctosApp.Controllers
         public IActionResult Index()
         {
             var productos = _context.Productos.ToList();
+            List<Producto> Lista= new List<Producto>();
+            DateTime limitDate=DateTime.Today.AddDays(-7);
+            foreach(Producto producto in productos){
+
+                if(DateTime.Compare(producto.Fecha, limitDate)>=0){
+                    Lista.Add(producto);
+                }
+            }
             return View(productos);
         }
 
